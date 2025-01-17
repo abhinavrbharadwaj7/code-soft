@@ -1,0 +1,68 @@
+li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: cursive;
+}
+
+/* Header styles*/
+header {
+    background-color: burlywood;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Hero section styles */
+.hero {
+    background-image: url("https://th.bing.com/th/id/OIP.pBGLOFFvkPqplAH9QafuaQHaJ4?w=184&h=246&c=7&r=0&o=5&pid=1.7");
+    background-size: cover;
+    text-align: center;
+    padding: 140px o;
+    color: brown
+}
+
+.hero h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom:30px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: white;
+    color: brown;
+    text-decoration: dotted;
+    border-radius: 5px;
+    font-weight: lighter;
+}
+/Footer styles/
+footer {
+    background-color: burlywood;
+    color: white;
+    text-align: left;
+    padding: 10px 0;
+}
